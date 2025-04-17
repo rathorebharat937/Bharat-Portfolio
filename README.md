@@ -1,4 +1,4 @@
-# 🌐 Bharat Rathore | Responsive Portfolio Website
+#  Bharat Rathore | Responsive Portfolio Website
 
 This is a responsive personal portfolio website built using **HTML**, **CSS**, **Tailwind CSS**, and **JavaScript**. It showcases my skills, projects, and contact details as a frontend developer and student.
 
@@ -11,7 +11,6 @@ This is a responsive personal portfolio website built using **HTML**, **CSS**, *
 
 ## ✨ Features
 
-- Responsive design with light/dark support.
 - Smooth layout with Tailwind CSS.
 - Interactive contact form with thank you message.
 - Sections include: About, Skills, Projects, Contact.

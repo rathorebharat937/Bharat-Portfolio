@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bharat Rathore | Portfolio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Metadata for SEO -->
+  <meta name="description" content="Bharat Rathore's Portfolio - Frontend Developer and Student from Rajasthan.">
+  <meta name="keywords" content="Bharat Rathore, Portfolio, Frontend Developer, HTML, CSS, JavaScript, Tailwind">
+  <meta name="author" content="Bharat Rathore">
+</head>
+
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-blue-600 text-white p-4 flex justify-between items-center shadow">
+    <h1 class="text-2xl font-bold">Portfolio</h1>
+    <ul class="flex space-x-4">
+      <li><a href="#about" class="hover:underline">About</a></li>
+      <li><a href="#skills" class="hover:underline">Skills</a></li>
+      <li><a href="#projects" class="hover:underline">Projects</a></li>
+      <li><a href="#contact" class="hover:underline">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-16 px-6">
+    <h2 class="text-4xl font-bold mb-4 text-gray-900 dark:text-white drop-shadow-md">
+      Hi, I'm Bharat Rathore
+    </h2>
+    <p class="text-lg text-gray-700 dark:text-gray-300">
+      Student & Frontend Designer from Rajasthan
+    </p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-12 px-6 bg-gray-100 dark:bg-gray-800">
+    <h2 class="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">About Me</h2>
+    <p class="max-w-2xl">I'm a BTech CSE student in 2nd year with a passion for frontend development. I love creating beautiful, responsive websites using HTML, CSS, Tailwind, and JavaScript.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-12 px-6">
+    <h2 class="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <span class="bg-blue-100 dark:bg-blue-900 p-2 rounded text-center">HTML</span>
+      <span class="bg-blue-100 dark:bg-blue-900 p-2 rounded text-center">CSS</span>
+      <span class="bg-blue-100 dark:bg-blue-900 p-2 rounded text-center">JavaScript</span>
+      <span class="bg-blue-100 dark:bg-blue-900 p-2 rounded text-center">Tailwind CSS</span>
+      <span class="bg-blue-100 dark:bg-blue-900 p-2 rounded text-center">Java</span>
+      <span class="bg-blue-100 dark:bg-blue-900 p-2 rounded text-center">C</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-12 px-6 bg-gray-100 dark:bg-gray-800">
+    <h2 class="text-3xl font-semibold mb-6 text-gray-900 dark:text-white">Projects</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white dark:bg-gray-700 p-4 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Coffeie Junkie</h3>
+        <p>Custom coffee order web app UI.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-700 p-4 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Employee Management System</h3>
+        <p>Java + MySQL based employee tracker.</p>
+      </div>
+      <div class="bg-white dark:bg-gray-700 p-4 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Human Posture & Exercise Detection</h3>
+        <p>Detect posture using geometric estimation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-6">
+    <h2 class="text-3xl font-semibold mb-4 text-gray-900 dark:text-white">Contact</h2>
+    <form class="max-w-xl space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-2 border rounded bg-white text-gray-800 dark:bg-gray-700 dark:text-white" required />
+      <input type="email" placeholder="Your Email" class="w-full p-2 border rounded bg-white text-gray-800 dark:bg-gray-700 dark:text-white" required />
+      <textarea placeholder="Your Message" class="w-full p-2 border rounded bg-white text-gray-800 dark:bg-gray-700 dark:text-white" required></textarea>
+      <button type="submit" onclick="thankMessage(event)" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send</button>
+    </form>
+    <p id="thanksText" class="mt-4 text-green-500 hidden">Thanks for reaching out! ✅</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-6 bg-gray-200 dark:bg-gray-800 text-sm">
+    <p>&copy; 2025 Bharat Rathore</p>
+    <div class="mt-2">
+      <a href="https://linkedin.com/in/bharat-rathore-b986532bb" class="mr-4 underline hover:text-blue-600">LinkedIn</a>
+      <a href="https://github.com/rathorebharat937" class="underline hover:text-gray-400">GitHub</a>
+      <p>Email: <a href="mailto:rathorebharat937@gmail.com" class="underline text-blue-600">rathorebharat937@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

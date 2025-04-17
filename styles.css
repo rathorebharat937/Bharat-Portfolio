@@ -1,0 +1,28 @@
+/* General font style */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navbar links */
+  nav ul li a {
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  /* Section headings */
+  h2 {
+    color: #1a202c;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form customizations */
+  input, textarea {
+    border-radius: 8px;
+  }
+  
+  /* Optional: Shadow on hover for project cards */
+  .project-card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  }
+  

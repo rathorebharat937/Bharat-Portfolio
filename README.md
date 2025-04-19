@@ -39,6 +39,4 @@ This is a responsive personal portfolio website built using **HTML**, **CSS**, *
 - 🔗 [LinkedIn](https://linkedin.com/in/bharat-rathore-b986532bb)
 - 💻 [GitHub](https://github.com/rathorebharat937)
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
